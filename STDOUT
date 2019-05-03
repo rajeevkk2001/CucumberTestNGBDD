@@ -1,0 +1,49 @@
+@NewVersionTest
+Feature: Automated Test Steps
+Description: The purpose of the test is to do End to End integration
+
+  Scenario Outline:  [90m# src/test/resources/functionalTests/End2End_Test.feature:7[0m
+    [36mGiven user is on Home Page[0m
+    [36mWhen he search for "dress"[0m
+    [36mWhen choose to buy the first item[0m
+    [36mWhen moves to checkout from mini cart[0m
+    [36mWhen enter "<Customer>" personal details on checkout page[0m
+    [36mWhen select same delivery address[0m
+    [36mWhen select payment method as "check" payment[0m
+    [36mWhen place the order[0m
+
+    Examples: 
+
+  @NewVersionTest
+  Scenario Outline:                                        [90m# src/test/resources/functionalTests/End2End_Test.feature:19[0m
+    [32mGiven [0m[32muser is on Home Page[0m                             [90m# HomePageSteps.user_is_on_Home_Page()[0m
+    [32mWhen [0m[32mhe search for "[0m[32m[1mdress[0m[32m"[0m                             [90m# HomePageSteps.he_search_for(String)[0m
+    [32mWhen [0m[32mchoose to buy the first item[0m                      [90m# ProductPageSteps.choose_to_buy_the_first_item()[0m
+    [32mWhen [0m[32mmoves to checkout from mini cart[0m                  [90m# CartPageSteps.moves_to_checkout_from_mini_cart()[0m
+    [32mWhen [0m[32menter "[0m[32m[1mLakshay[0m[32m" personal details on checkout page[0m [90m# CheckoutPageSteps.enter_personal_details_on_checkout_page(String)[0m
+    [32mWhen [0m[32mselect same delivery address[0m                      [90m# CheckoutPageSteps.select_same_delivery_address()[0m
+    [32mWhen [0m[32mselect payment method as "[0m[32m[1mcheck[0m[32m" payment[0m          [90m# CheckoutPageSteps.select_payment_method_as_payment(String)[0m
+    [32mWhen [0m[32mplace the order[0m                                   [90m# CheckoutPageSteps.place_the_order()[0m
+
+  Scenario Outline:  [90m# src/test/resources/functionalTests/End2End_Test.feature:21[0m
+    [36mGiven user is on Home Page[0m
+    [36mWhen he search for "dress"[0m
+    [36mWhen choose to buy the first item[0m
+    [36mWhen moves to checkout from mini cart[0m
+    [36mWhen enter "<Customer>" personal details on checkout page[0m
+    [36mWhen select same delivery address[0m
+    [36mWhen select payment method as "check" payment[0m
+    [36mWhen place the order[0m
+
+    Examples: 
+
+  @NewVersionTest
+  Scenario Outline:                                         [90m# src/test/resources/functionalTests/End2End_Test.feature:33[0m
+    [32mGiven [0m[32muser is on Home Page[0m                              [90m# HomePageSteps.user_is_on_Home_Page()[0m
+    [32mWhen [0m[32mhe search for "[0m[32m[1mdress[0m[32m"[0m                              [90m# HomePageSteps.he_search_for(String)[0m
+    [32mWhen [0m[32mchoose to buy the first item[0m                       [90m# ProductPageSteps.choose_to_buy_the_first_item()[0m
+    [32mWhen [0m[32mmoves to checkout from mini cart[0m                   [90m# CartPageSteps.moves_to_checkout_from_mini_cart()[0m
+    [32mWhen [0m[32menter "[0m[32m[1mVirender[0m[32m" personal details on checkout page[0m [90m# CheckoutPageSteps.enter_personal_details_on_checkout_page(String)[0m
+    [32mWhen [0m[32mselect same delivery address[0m                       [90m# CheckoutPageSteps.select_same_delivery_address()[0m
+    [32mWhen [0m[32mselect payment method as "[0m[32m[1mcheck[0m[32m" payment[0m           [90m# CheckoutPageSteps.select_payment_method_as_payment(String)[0m
+    [32mWhen [0m[32mplace the order[0m                                    [90m# CheckoutPageSteps.place_the_order()[0m
