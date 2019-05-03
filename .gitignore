@@ -2,4 +2,4 @@
 target/
 src/test/Reports
 *.iml
-vcs.xml
+.idea/vcs.xml
