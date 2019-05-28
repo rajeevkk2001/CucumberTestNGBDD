@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 
 
-public class ITestListeners extends ExtentReportListener implements ITestListener
+public class ITestListeners  implements ITestListener
 {
     private static ExtentReports extent;
 
@@ -51,7 +51,7 @@ public class ITestListeners extends ExtentReportListener implements ITestListene
 
     public void onStart(ITestContext context) {
         System.out.println("Execution started on UAT env...");
-        extent= setUp();
+
 
     }
 

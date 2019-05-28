@@ -17,8 +17,8 @@ public class CheckoutPageSteps {
 
     @When("^enter \\\"(.*)\\\" personal details on checkout page$")
     public void enter_personal_details_on_checkout_page(String customerName){
-        Customer customer = FileReaderManager.getInstance().getJsonReader().getCustomerByName(customerName);
-        checkoutPage.fill_PersonalDetails(customer);
+      //  Customer customer = FileReaderManager.getInstance().getJsonReader().getCustomerByName(customerName);
+        checkoutPage.fill_PersonalDetails(customerName);
     }
 
     @When("^select same delivery address$")

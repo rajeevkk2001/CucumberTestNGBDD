@@ -143,7 +143,7 @@ public class CheckoutPage {
     }
 
 
-    public void fill_PersonalDetails(Customer customer) {
+    public void fill_PersonalDetails(String customer) {
 
         /*enter_Name(customer.firstName);
         enter_LastName(customer.lastName);
@@ -153,7 +153,7 @@ public class CheckoutPage {
         enter_Address(customer.address.streetAddress);
         enter_PostCode(customer.address.postCode);
         select_Country(customer.address.country);
-        select_County(customer.address.county);*/
+        select_County(customer.address.county);
         System.out.println(customer.firstName);
         System.out.println(customer.lastName);
         System.out.println(customer.phoneNumber.mob);
@@ -162,7 +162,7 @@ public class CheckoutPage {
         System.out.println(customer.address.streetAddress);
         System.out.println(customer.address.postCode);
         System.out.println(customer.address.country);
-        System.out.println(customer.address.county);
+        System.out.println(customer.address.county);*/
 
     }
 
